@@ -1,7 +1,11 @@
 from typing import *
 
 class ParkingSystem:
-
+    """
+        Time: O(1)
+        Space: O(1)
+    """
+    
     def __init__(self, big: int, medium: int, small: int):
         self.parkingSlots = [big, medium, small]
 
