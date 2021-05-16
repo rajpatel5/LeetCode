@@ -16,9 +16,3 @@ class Solution:
                 result += "[.]"
             
         return result
-
-
-# Change arguments to test various cases
-arg1 = "255.255.255.0"
-
-print(Solution.defangIPaddr(None, arg1))

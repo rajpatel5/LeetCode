@@ -13,9 +13,3 @@ class Solution:
             result.append(result[i-1] + nums[i])
         
         return result
-
-
-# Change arguments to test various cases
-arg1 = [1, 2, 3, 3]
-
-print(Solution.runningSum(None, arg1))

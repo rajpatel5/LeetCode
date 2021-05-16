@@ -19,9 +19,3 @@ class Solution:
                 richest = wealth
                 
         return richest
-
-
-# Change arguments to test various cases
-arg1 = [[1,2,3],[3,2,1]]
-
-print(Solution.runningSum(None, arg1))

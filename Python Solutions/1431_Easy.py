@@ -29,10 +29,3 @@ class Solution:
                 greatest = candies[i]
                 
         return greatest
-
-
-# Change arguments to test various cases
-arg1 = [2,3,5,1,3]
-arg2 = 3
-
-print(Solution.kidsWithCandies(None, arg1, arg2))
